@@ -1,0 +1,57 @@
+# secrets / local config
+.env
+.env.*
+!.env.example
+config.toml
+config.local.toml
+config.*.toml
+!config.example.toml
+companion/.env
+companion/.env.*
+!companion/.env.example
+bili_credential.json
+*.pem
+*.key
+
+# runtime data / logs / builds
+data/
+companion/data/
+companion/.tmp-tests/
+companion/tmp-tests/
+companion/archive/
+companion/.acl-recovery/
+logs/
+dist/
+backups/
+demo-data/
+.tmp/
+.testtmp/
+tests/.tmp/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# local tools / downloaded media / voice references
+tools/
+voice_samples/
+stickers/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.mp4
+*.zip
+
+# virtualenvs / dependencies
+.venv/
+venv/
+.deps/
+node_modules/
+
+# local autostart files
+windows/napcat-autostart.bat

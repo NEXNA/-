@@ -1,0 +1,17 @@
+# 本地配置与数据
+.env
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 临时/诊断文件
+.acl-recovery/
+.tmp-tests/
+inspect_state.py
+inspect_napcat.py
+research/_probe.md
