@@ -36,7 +36,6 @@ __pycache__/
 *.log
 
 # local tools / downloaded media / voice references
-tools/
 voice_samples/
 stickers/
 *.wav
